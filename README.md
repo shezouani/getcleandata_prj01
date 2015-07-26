@@ -10,5 +10,5 @@ The run_analysis.R script merges the given data sets located in the Dataset fold
 
 * **run_analysis.R** : R script performing the data cleaning and analysis. The script merges the given data sets located in the Dataset folder, makes few column transformations and computes a tidy data set with the mean measurement values per subject and per activity. Refer to the **CodeBook.md** for more details. 
 
-* **Dataset** : UCI HAR Dataset folder that was unzipped from the **getdata_projectfiles_UCI HAR Dataset.zip** file. Refer to the **Dateset/README.txt** files for more details about data sets
+* **Dataset** : The R script needs the UCI HAR Datasets to work. Unzip the **getdata_projectfiles_UCI HAR Dataset.zip** file and rename the data folder to **Dataset** so you have the README.txt at the following location **Dateset/README.txt**.
 

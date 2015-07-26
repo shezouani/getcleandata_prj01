@@ -5,6 +5,12 @@
 ## Description
 The run_analysis.R script merges the given data sets located in the Dataset folder, makes few column transformations and computes a tidy data set with the mean measurement values per subject and per activity.
 
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement. 
+* Uses descriptive activity names to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names. 
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 This code book describes the variables, the data, and transformations or work that have been performed by the run_analysis.R script to clean up the data and to create the tidy data.
 
 ## Data
